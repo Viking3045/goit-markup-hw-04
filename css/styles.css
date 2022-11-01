@@ -159,7 +159,13 @@ margin: o;}
         .icon-clock::before{
             background-image: url(../imges/clock\ 1.svg);
         }
-        
+        .icon-diagram::before{
+            background-image: url(../imges/diagram\ 1.svg);
+        }
+        .icon-astronaut::before{
+            background-image: url(../imges/astronaut\ 1.svg);
+        }
+
     .features-list .title{
         color:var(--title-text-color);  
         font-weight: 700;
