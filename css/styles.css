@@ -77,6 +77,20 @@ margin: o;}
             line-height: 1.14;
             text-decoration: none;
         }
+        .mail{
+            display: inline-block;
+        }
+        .mail::before{
+            background-color: yellow
+            ;
+            content: "";
+            width: 16px;
+                height: 12px;
+             background-image:url(../imges/envelope.svg);
+             background-size: contain;
+             margin-right: 10px;
+             outline: 1px solid tomato;
+                }
         .auth-nav .link:hover,
         .auth-nav .link:focus {
             color: var(--accent-color);}
@@ -85,7 +99,18 @@ margin: o;}
         text-align: center;
         padding-top: 200px;
         padding-bottom: 200px;
-        background-color: #757575;
+        margin-right: auto;
+        margin-left: auto;
+        background: #C4C4C4;
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../imges/hero-background.jpg);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        background-position: center;
+        outline: 1px solid tomato;
+        max-width: 1600px;
+        height: 600px;
     }
     
     .hero-title{
