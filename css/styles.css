@@ -130,6 +130,16 @@ margin: o;}
          .features-list .item:not(:last-child){
             margin-right: 30px;
          }
+         .features-list .icon-bcg{
+            width: 270px;
+            height: 120px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+            background: #F5F4FA;
+            border-radius: 4px;
+            margin-bottom: 30px;
+         }
     .features-list .title{
         color:var(--title-text-color);  
         font-weight: 700;
