@@ -212,7 +212,8 @@ margin: o;}
         margin-right: 10px;
         border-radius: 50%;
     }
-         .employee-list .social-item:hover{
+         .employee-list .social-item:hover,
+         .employee-list .social-item:focus{
             background-color: var(--accent-color);
             
          }
@@ -229,7 +230,9 @@ margin: o;}
         .employee-list .icon{
             fill: #AFB1B8;
         }
-        .employee-list .social-link:hover .icon{
+        .employee-list .social-link:hover .icon,
+        .employee-list .social-link:focus .icon
+        {
             fill: var(--ptimary-white-color);
         }
 
